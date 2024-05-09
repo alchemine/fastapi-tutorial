@@ -1,0 +1,22 @@
+{
+    "extensions": {
+      "recommendations": [
+        "GitHub.vscode-pull-request-github",
+        "esbenp.prettier-vscode",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter",
+        "eamodio.gitlens",
+        "GitHub.copilot"
+      ]
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "githubIssues.issueBranchTitle": "feature/${issueNumber}-${sanitizedIssueTitle}",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "terminal.integrated.env.windows": {
+      "PYTHONPATH": "${workspaceFolder}"
+    }
+}
